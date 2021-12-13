@@ -1,0 +1,4 @@
+aknosom,almudron,anjanath,arzuros,Apex_Arzuros,barioth,barroth,bazelgeuse,basarios,bishaten,chameleos,diablos,Apex_Diablos,Goss_Harag,
+Great_Baggi,Great_Izuchi,Great_Wroggi,jyuratodus,khezu,Kulu-Ya-Ku,Kushala_Daora,lagombi,magnamalo,mizutsune,Apex_Mizutsune,nargacuga,Pukei-Pukei,
+rajang,Rakna-Kadaki,rathalos,Apex_Rathalos,rathian,Apex_Rathian,Royal_Ludroth,somnacanth,teostra,tetranadon,Thunder_Serpent_Narwa,Narwa_the_Allmother,
+tigrex,Tobi-Kadachi,Crimson_Glow_Valstrax,volvidon,Wind_Serpent_Ibushi,zinogre,Apex_Zinogre
