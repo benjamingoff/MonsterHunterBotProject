@@ -234,9 +234,106 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Nose": {
+        "Cutting": "80",
+        "Impact": "75",
+        "Shot": "90"
+      },
+      "Head": {
+        "Cutting": "70",
+        "Impact": "70",
+        "Shot": "65"
+      },
+      "Neck": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Wings": {
+        "Cutting": "80",
+        "Impact": "45",
+        "Shot": "90"
+      },
+      "Body": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "45"
+      },
+      "Legs": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Tail": {
+        "Cutting": "60",
+        "Impact": "60",
+        "Shot": "75"
+      }
+    },
+    "elements": {
+      "Nose": {
+        "Fire": "0",
+        "Water": "30",
+        "Thunder": "15",
+        "Ice": "20",
+        "Dragon": "10"
+      },
+      "Head": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "5"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "5",
+        "Ice": "15",
+        "Dragon": "5"
+      },
+      "Wings": {
+        "Fire": "0",
+        "Water": "30",
+        "Thunder": "15",
+        "Ice": "20",
+        "Dragon": "10"
+      },
+      "Body": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "5",
+        "Ice": "10",
+        "Dragon": "5"
+      },
+      "Legs": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "5",
+        "Ice": "10",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 1,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 2,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Arzuros": {
     "habitats": [
@@ -327,17 +424,199 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "55",
+        "Impact": "55",
+        "Shot": "55"
+      },
+      "Upper Half": {
+        "Cutting": "50",
+        "Impact": "50",
+        "Shot": "62"
+      },
+      "Foreleg": {
+        "Cutting": "33",
+        "Impact": "35",
+        "Shot": "28"
+      },
+      "Abdomen/Hind Leg": {
+        "Cutting": "55",
+        "Impact": "55",
+        "Shot": "38"
+      },
+      "Rear": {
+        "Cutting": "66",
+        "Impact": "66",
+        "Shot": "43"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "20",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "0"
+      },
+      "Upper Half": {
+        "Fire": "25",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "0"
+      },
+      "Foreleg": {
+        "Fire": "30",
+        "Water": "5",
+        "Thunder": "30",
+        "Ice": "20",
+        "Dragon": "0"
+      },
+      "Abdomen/Hind Leg": {
+        "Fire": "15",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "20",
+        "Dragon": "0"
+      },
+      "Rear": {
+        "Fire": "15",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "20",
+        "Dragon": "0"
+      }
+    },
+    "ailments": {
+      "Poison": 3,
+      "Stun": 2,
+      "Paralysis": 3,
+      "Sleep": 3,
+      "Blast": 2,
+      "Exhaust": 3,
+      "Fireblight": 2,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Barioth": {
     "habitats": [
       "Frost Islands"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "55"
+      },
+      "Neck/Back": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Foreleg": {
+        "Cutting": "40",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Thorns": {
+        "Cutting": "25",
+        "Impact": "35",
+        "Shot": "25"
+      },
+      "Abdomen": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "25"
+      },
+      "Wing": {
+        "Cutting": "30",
+        "Impact": "45",
+        "Shot": "25"
+      },
+      "Hind Leg": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Tail Tip": {
+        "Cutting": "60",
+        "Impact": "40",
+        "Shot": "40"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "20",
+        "Water": "10",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Neck/Back": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Thorns": {
+        "Fire": "30",
+        "Water": "5",
+        "Thunder": "25",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Abdomen": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Wing": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Hind Leg": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Tail Tip": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 2,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Barroth": {
     "habitats": [
@@ -506,25 +785,16 @@
       }
     },
     "ailments": {
-      "150 + 100 → 550": 15,
-      "320 damage / 20 seconds": 1,
-      "180 + 130 → 570": 15,
-      "0 damage / 10 seconds": 1,
-      "0 damage / 40 seconds": 1,
-      "120 + 90 → 1920": 1,
-      "100 damage / 0 seconds": 1,
-      "225 + 75 → 900": 15,
-      "250 drain / 0 seconds": 1,
-      "200 + 150 → 800": 15,
-      "0 damage / 7 seconds": 1,
-      "-": 1,
-      "0 damage / 10→8→6→4 seconds": 1,
-      "0 damage / 30 seconds": 1,
-      "10→8→6→4→2 seconds": 1,
-      "8→6→4→2 seconds": 1,
-      "0 damage / 8 seconds": 1,
-      "150 + 200": 14,
-      "50 + 100 → 550": 1
+      "Poison": 1,
+      "Stun": 0,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
     }
   },
   "Basarios": {
@@ -534,11 +804,6 @@
       "Red Stronghold"
     ],
     "hitzones": {
-      "Hitzone": {
-        "Cutting": "",
-        "Impact": "",
-        "Shot": ""
-      },
       "Head": {
         "Cutting": "20",
         "Impact": "20",
@@ -580,17 +845,75 @@
         "Shot": "15"
       }
     },
-    "elements": {},
+    "elements": {
+      "Head": {
+        "Fire": "10",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "18"
+      },
+      "Lower Neck": {
+        "Fire": "10",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "18"
+      },
+      "Abdomen": {
+        "Fire": "10",
+        "Water": "10",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "15"
+      },
+      "Back": {
+        "Fire": "10",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "18"
+      },
+      "Wing": {
+        "Fire": "10",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "18"
+      },
+      "Leg": {
+        "Fire": "10",
+        "Water": "10",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "10"
+      },
+      "Lower Tail": {
+        "Fire": "10",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "18"
+      },
+      "Tail Tip": {
+        "Fire": "10",
+        "Water": "10",
+        "Thunder": "10",
+        "Ice": "10",
+        "Dragon": "15"
+      }
+    },
     "ailments": {
-      "Name": 6,
-      "Basarios Shell": 6,
-      "Basarios Pleura": 6,
-      "Basarios Wing": 6,
-      "Basarios Tail": 6,
-      "Poison Sac": 6,
-      "Flame Sac": 6,
-      "Machalite Ore": 6,
-      "Wyvern Tear": 6
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 3,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 2,
+      "Thunderblight": 1,
+      "Iceblight": 1
     }
   },
   "Bishaten": {
@@ -693,27 +1016,366 @@
       "Flooded Forest (Rise)",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "55",
+        "Impact": "50",
+        "Shot": "45"
+      },
+      "Foreleg": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "20"
+      },
+      "Abdomen": {
+        "Cutting": "23",
+        "Impact": "30",
+        "Shot": "22"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "22",
+        "Shot": "25"
+      },
+      "Wing": {
+        "Cutting": "22",
+        "Impact": "22",
+        "Shot": "20"
+      },
+      "Hind Leg": {
+        "Cutting": "30",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Tail": {
+        "Cutting": "35",
+        "Impact": "22",
+        "Shot": "45"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "25",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "20"
+      },
+      "Foreleg": {
+        "Fire": "20",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Abdomen": {
+        "Fire": "20",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Back": {
+        "Fire": "25",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "20",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Hind Leg": {
+        "Fire": "25",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "20"
+      },
+      "Tail": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "0",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 0,
+      "Sleep": 0,
+      "Blast": 2,
+      "Exhaust": 0,
+      "Fireblight": 2,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Diablos": {
     "habitats": [
       "Sandy Plains",
       "Red Stronghold"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "45",
+        "Impact": "60",
+        "Shot": "40"
+      },
+      "Horn": {
+        "Cutting": "21",
+        "Impact": "42",
+        "Shot": "20"
+      },
+      "Neck": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "25"
+      },
+      "Abdomen": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "40"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "42",
+        "Shot": "35"
+      },
+      "Wing": {
+        "Cutting": "40",
+        "Impact": "30",
+        "Shot": "60"
+      },
+      "Leg": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "35"
+      },
+      "Tail": {
+        "Cutting": "50",
+        "Impact": "24",
+        "Shot": "45"
+      },
+      "Tail Tip": {
+        "Cutting": "23",
+        "Impact": "26",
+        "Shot": "10"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "15"
+      },
+      "Horn": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "5",
+        "Ice": "20",
+        "Dragon": "15"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "30",
+        "Dragon": "25"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "30",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "5",
+        "Ice": "15",
+        "Dragon": "10"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "20"
+      },
+      "Tail Tip": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 0,
+      "Paralysis": 3,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 2
+    }
   },
   "Apex Diablos": {
     "habitats": [
       "Sandy Plains",
       "Red Stronghold"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "45",
+        "Impact": "60",
+        "Shot": "40"
+      },
+      "Horn": {
+        "Cutting": "21",
+        "Impact": "42",
+        "Shot": "20"
+      },
+      "Neck": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "25"
+      },
+      "Abdomen": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "40"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "42",
+        "Shot": "35"
+      },
+      "Wing": {
+        "Cutting": "40",
+        "Impact": "30",
+        "Shot": "60"
+      },
+      "Leg": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "35"
+      },
+      "Tail": {
+        "Cutting": "50",
+        "Impact": "24",
+        "Shot": "45"
+      },
+      "Tail Tip": {
+        "Cutting": "23",
+        "Impact": "26",
+        "Shot": "10"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "15"
+      },
+      "Horn": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "5",
+        "Ice": "20",
+        "Dragon": "15"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "30",
+        "Dragon": "25"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "30",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "5",
+        "Ice": "15",
+        "Dragon": "10"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "20"
+      },
+      "Tail Tip": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "25",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 0,
+      "Paralysis": 3,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 2
+    }
   },
   "Goss Harag": {
     "habitats": [
@@ -1263,9 +1925,118 @@
       "Sandy Plains",
       "Coral Palace"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "60",
+        "Impact": "55",
+        "Shot": "35"
+      },
+      "Neck": {
+        "Cutting": "40",
+        "Impact": "35",
+        "Shot": "25"
+      },
+      "Foreleg": {
+        "Cutting": "45",
+        "Impact": "50",
+        "Shot": "35"
+      },
+      "Abdomen": {
+        "Cutting": "35",
+        "Impact": "50",
+        "Shot": "34"
+      },
+      "Back": {
+        "Cutting": "23",
+        "Impact": "25",
+        "Shot": "30"
+      },
+      "Wing": {
+        "Cutting": "23",
+        "Impact": "23",
+        "Shot": "20"
+      },
+      "Hind Leg": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Tail": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Neck": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "20",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Abdomen": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Back": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "10"
+      },
+      "Wing": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "20",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Hind Leg": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "10",
+        "Water": "5",
+        "Thunder": "20",
+        "Ice": "0",
+        "Dragon": "15"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 0,
+      "Sleep": 0,
+      "Blast": 3,
+      "Exhaust": 0,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Lagombi": {
     "habitats": [
@@ -1356,9 +2127,118 @@
       "Coral Palace",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "55",
+        "Impact": "55",
+        "Shot": "30"
+      },
+      "Torso": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "5"
+      },
+      "Foreleg": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "20"
+      },
+      "Armblade": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "45"
+      },
+      "Back": {
+        "Cutting": "30",
+        "Impact": "43",
+        "Shot": "15"
+      },
+      "Hind Leg": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "20"
+      },
+      "Tail": {
+        "Cutting": "43",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Tailblade": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "45"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Torso": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "15",
+        "Ice": "10",
+        "Dragon": "0"
+      },
+      "Foreleg": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "15",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Armblade": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Hind Leg": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "20",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Tailblade": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "0"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 2,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Mizutsune": {
     "habitats": [
@@ -1368,18 +2248,260 @@
       "Infernal Springs",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "63",
+        "Impact": "63",
+        "Shot": "45"
+      },
+      "Neck": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "40"
+      },
+      "Torso": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Foreleg": {
+        "Cutting": "28",
+        "Impact": "28",
+        "Shot": "10"
+      },
+      "Left Claw": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "10"
+      },
+      "Right Claw": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "10"
+      },
+      "Dorsal Fin": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "45"
+      },
+      "Hind Leg": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "25"
+      },
+      "Tail": {
+        "Cutting": "43",
+        "Impact": "33",
+        "Shot": "40"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "8"
+      },
+      "Neck": {
+        "Fire": "8",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "8"
+      },
+      "Torso": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Left Claw": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "30",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Right Claw": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "30",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Dorsal Fin": {
+        "Fire": "8",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "5",
+        "Dragon": "10"
+      },
+      "Hind Leg": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Apex Mizutsune": {
     "habitats": [
       "Frost Islands",
       "Red Stronghold"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "63",
+        "Impact": "63",
+        "Shot": "45"
+      },
+      "Neck": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "40"
+      },
+      "Torso": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Foreleg": {
+        "Cutting": "28",
+        "Impact": "28",
+        "Shot": "10"
+      },
+      "Left Claw": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "10"
+      },
+      "Right Claw": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "10"
+      },
+      "Dorsal Fin": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "45"
+      },
+      "Hind Leg": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "25"
+      },
+      "Tail": {
+        "Cutting": "43",
+        "Impact": "33",
+        "Shot": "40"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "8"
+      },
+      "Neck": {
+        "Fire": "8",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "8"
+      },
+      "Torso": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Left Claw": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "30",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Right Claw": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "30",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Dorsal Fin": {
+        "Fire": "8",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "5",
+        "Dragon": "10"
+      },
+      "Hind Leg": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Nargacuga": {
     "habitats": [
@@ -1387,9 +2509,118 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "40"
+      },
+      "Neck/Back": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "35"
+      },
+      "Foreleg": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "35"
+      },
+      "Cutwing": {
+        "Cutting": "21",
+        "Impact": "24",
+        "Shot": "21"
+      },
+      "Abdomen": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "30"
+      },
+      "Hind Leg": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Tail": {
+        "Cutting": "46",
+        "Impact": "40",
+        "Shot": "45"
+      },
+      "Tail Tip": {
+        "Cutting": "40",
+        "Impact": "35",
+        "Shot": "40"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "10",
+        "Dragon": "10"
+      },
+      "Neck/Back": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "20",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Cutwing": {
+        "Fire": "25",
+        "Water": "5",
+        "Thunder": "35",
+        "Ice": "10",
+        "Dragon": "15"
+      },
+      "Abdomen": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "20",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Hind Leg": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "5",
+        "Dragon": "5"
+      },
+      "Tail Tip": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "20",
+        "Ice": "5",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Pukei-Pukei": {
     "habitats": [
@@ -1508,9 +2739,82 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "67",
+        "Shot": "55"
+      },
+      "Torso": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Foreleg": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "40"
+      },
+      "Hind Leg": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "15"
+      },
+      "Tail": {
+        "Cutting": "35",
+        "Impact": "32",
+        "Shot": "25"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "30",
+        "Dragon": "0"
+      },
+      "Torso": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "15",
+        "Dragon": "0"
+      },
+      "Foreleg": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "15",
+        "Dragon": "0"
+      },
+      "Hind Leg": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "15",
+        "Dragon": "0"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "15",
+        "Dragon": "0"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 0,
+      "Paralysis": 0,
+      "Sleep": 0,
+      "Blast": 2,
+      "Exhaust": 0,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 2
+    }
   },
   "Rakna-Kadaki": {
     "habitats": [
@@ -1518,9 +2822,82 @@
       "Lava Caverns",
       "Red Stronghold"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "60",
+        "Impact": "70",
+        "Shot": "45"
+      },
+      "Chest": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "10"
+      },
+      "Claw": {
+        "Cutting": "20",
+        "Impact": "20",
+        "Shot": "10"
+      },
+      "Abdomen": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "15"
+      },
+      "Leg": {
+        "Cutting": "43",
+        "Impact": "43",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "0",
+        "Ice": "20",
+        "Dragon": "0"
+      },
+      "Chest": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Claw": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "0",
+        "Ice": "30",
+        "Dragon": "0"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "10",
+        "Dragon": "0"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 1,
+      "Iceblight": 2
+    }
   },
   "Rathalos": {
     "habitats": [
@@ -1528,18 +2905,212 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "60"
+      },
+      "Neck": {
+        "Cutting": "35",
+        "Impact": "40",
+        "Shot": "30"
+      },
+      "Abdomen": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Wing": {
+        "Cutting": "50",
+        "Impact": "45",
+        "Shot": "40"
+      },
+      "Leg": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "30"
+      },
+      "Tail": {
+        "Cutting": "45",
+        "Impact": "40",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "20",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "15",
+        "Ice": "10",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Apex Rathalos": {
     "habitats": [
       "Lava Caverns",
       "Red Stronghold"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "70",
+        "Shot": "60"
+      },
+      "Neck": {
+        "Cutting": "35",
+        "Impact": "40",
+        "Shot": "30"
+      },
+      "Abdomen": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "20"
+      },
+      "Wing": {
+        "Cutting": "50",
+        "Impact": "45",
+        "Shot": "40"
+      },
+      "Leg": {
+        "Cutting": "35",
+        "Impact": "35",
+        "Shot": "30"
+      },
+      "Tail": {
+        "Cutting": "45",
+        "Impact": "40",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "20",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "15",
+        "Ice": "10",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Rathian": {
     "habitats": [
@@ -1549,9 +3120,106 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "70",
+        "Impact": "75",
+        "Shot": "65"
+      },
+      "Neck": {
+        "Cutting": "40",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Abdomen": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Back": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Wing": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Leg": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "35"
+      },
+      "Tail": {
+        "Cutting": "45",
+        "Impact": "40",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "20",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "15",
+        "Ice": "10",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Apex Rathian": {
     "habitats": [
@@ -1560,9 +3228,106 @@
       "Red Stronghold",
       "Shrine Ruins"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "70",
+        "Impact": "75",
+        "Shot": "65"
+      },
+      "Neck": {
+        "Cutting": "40",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Abdomen": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Back": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Wing": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Leg": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "35"
+      },
+      "Tail": {
+        "Cutting": "45",
+        "Impact": "40",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "20",
+        "Ice": "15",
+        "Dragon": "30"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "15",
+        "Ice": "10",
+        "Dragon": "25"
+      },
+      "Leg": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "5",
+        "Ice": "0",
+        "Dragon": "15"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "10",
+        "Ice": "5",
+        "Dragon": "20"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 1,
+      "Blast": 0,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Royal Ludroth": {
     "habitats": [
@@ -1677,9 +3442,118 @@
       "Lava Caverns",
       "Infernal Springs"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "65",
+        "Impact": "55",
+        "Shot": "45"
+      },
+      "Head Fin": {
+        "Cutting": "40",
+        "Impact": "40",
+        "Shot": "20"
+      },
+      "Neck": {
+        "Cutting": "70",
+        "Impact": "70",
+        "Shot": "60"
+      },
+      "Foreleg": {
+        "Cutting": "45",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Abdomen": {
+        "Cutting": "30",
+        "Impact": "40",
+        "Shot": "20"
+      },
+      "Back": {
+        "Cutting": "25",
+        "Impact": "25",
+        "Shot": "15"
+      },
+      "Hind Leg": {
+        "Cutting": "25",
+        "Impact": "30",
+        "Shot": "25"
+      },
+      "Tail": {
+        "Cutting": "60",
+        "Impact": "55",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Head Fin": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Neck": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Foreleg": {
+        "Fire": "5",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Abdomen": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Back": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "15",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Hind Leg": {
+        "Fire": "10",
+        "Water": "0",
+        "Thunder": "25",
+        "Ice": "0",
+        "Dragon": "0"
+      },
+      "Tail": {
+        "Fire": "15",
+        "Water": "0",
+        "Thunder": "30",
+        "Ice": "0",
+        "Dragon": "0"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 1,
+      "Sleep": 0,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 2,
+      "Iceblight": 1
+    }
   },
   "Teostra": {
     "habitats": [
@@ -1687,9 +3561,106 @@
       "Lava Caverns",
       "Coral Palace"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "50",
+        "Impact": "55",
+        "Shot": "45"
+      },
+      "Neck": {
+        "Cutting": "33",
+        "Impact": "38",
+        "Shot": "5"
+      },
+      "Foreleg": {
+        "Cutting": "38",
+        "Impact": "38",
+        "Shot": "15"
+      },
+      "Abdomen": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "10"
+      },
+      "Back": {
+        "Cutting": "24",
+        "Impact": "24",
+        "Shot": "5"
+      },
+      "Wing": {
+        "Cutting": "40",
+        "Impact": "35",
+        "Shot": "15"
+      },
+      "Hind Leg": {
+        "Cutting": "30",
+        "Impact": "25",
+        "Shot": "20"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "0",
+        "Water": "20",
+        "Thunder": "10",
+        "Ice": "15",
+        "Dragon": "10"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "10",
+        "Thunder": "5",
+        "Ice": "10",
+        "Dragon": "5"
+      },
+      "Foreleg": {
+        "Fire": "0",
+        "Water": "25",
+        "Thunder": "10",
+        "Ice": "20",
+        "Dragon": "10"
+      },
+      "Abdomen": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Back": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Wing": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Hind Leg": {
+        "Fire": "0",
+        "Water": "15",
+        "Thunder": "5",
+        "Ice": "10",
+        "Dragon": "5"
+      }
+    },
+    "ailments": {
+      "Poison": 1,
+      "Stun": 1,
+      "Paralysis": 0,
+      "Sleep": 0,
+      "Blast": 2,
+      "Exhaust": 1,
+      "Fireblight": 0,
+      "Waterblight": 2,
+      "Thunderblight": 1,
+      "Iceblight": 1
+    }
   },
   "Tetranadon": {
     "habitats": [
@@ -1803,87 +3774,1128 @@
     "habitats": [
       "Coral Palace"
     ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Narwa the Allmother": {
-    "habitats": [
-      "Coral Palace"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Tigrex": {
-    "habitats": [
-      "Frost Islands",
-      "Sandy Plains",
-      "Lava Caverns",
-      "Red Stronghold"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Tobi-Kadachi": {
-    "habitats": [
-      "Flooded Forest (Rise)",
-      "Shrine Ruins"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Crimson Glow Valstrax": {
-    "habitats": [
-      "Frost Islands",
-      "Sandy Plains",
-      "Flooded Forest (Rise)",
-      "Lava Caverns",
-      "Shrine Ruins"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Volvidon": {
-    "habitats": [
-      "Sandy Plains",
-      "Lava Caverns"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Wind Serpent Ibushi": {
-    "habitats": [
-      "Red Stronghold",
-      "Coral Palace"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Zinogre": {
-    "habitats": [
-      "Flooded Forest (Rise)",
-      "Red Stronghold",
-      "Shrine Ruins"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
-  },
-  "Apex Zinogre": {
-    "habitats": [
-      "Flooded Forest (Rise)",
-      "Red Stronghold",
-      "Infernal Springs",
-      "Shrine Ruins"
-    ],
-    "hitzones": {},
-    "elements": {},
-    "ailments": {}
+    "hitzones": {
+      "Head": {
+        "Cutting": "70",
+        "Impact": "75",
+        "Shot": "45"
+      },
+      "Neck": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Torso": {
+        "Cutting": "20",
+        "Impact": "25",
+        "Shot": "5"
+      },
+      "Chest (Charged)": {
+        "Cutting": "55",
+        "Impact": "50",
+        "Shot": "35"
+      },
+      "Wingarm": {
+        "Cutting": "35",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Wingarm (Charged)": {
+        "Cutting": "70",
+        "Impact": "65",
+        "Shot": "45"
+      },
+      "Abdomen (Thundersac)": {
+        "Cutting": "90",
+        "Impact": "90",
+        "Shot": "55"
+      },
+      "Back (Charged)": {
+        "Cutting": "50",
+        "Impact": "45",
+        "Shot": "35"
+      },
+      "Leg Fin": {
+        "Cutting": "20",
+        "Impact": "20",
+        "Shot": "5"
+      },
+      "Tail": {
+        "Cutting": "30",
+        "Impact": "30",
+        "Shot": "10"
+      },
+      "Tail Tip (Charged)": {
+        "Cutting": "70",
+        "Impact": "65",
+        "Shot": "35"
+      }
+    },
+    "elements": {
+      "Head": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "15",
+        "Dragon": "20"
+      },
+      "Neck": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "0"
+      },
+      "Torso": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Chest (Charged)": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "10",
+        "Dragon": "15"
+      },
+      "Wingarm": {
+        "Fire": "0",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "10"
+      },
+      "Wingarm (Charged)": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "10",
+        "Dragon": "20"
+      },
+      "Abdomen (Thundersac)": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "20",
+        "Dragon": "25"
+      },
+      "Back (Charged)": {
+        "Fire": "5",
+        "Water": "5",
+        "Thunder": "0",
+        "Ice": "10",
+        "Dragon": "15"
+      },
+      "Leg Fin": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "0",
+        "Dragon": "5"
+      },
+      "Tail": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "10"
+      },
+      "Tail Tip (Charged)": {
+        "Fire": "0",
+        "Water": "0",
+        "Thunder": "0",
+        "Ice": "5",
+        "Dragon": "15"
+      }
+    },
+    "ailments": {
+      "Poison": 0,
+      "Stun": 0,
+      "Paralysis": 0,
+      "Sleep": 0,
+      "Blast": 2,
+      "Exhaust": 0,
+      "Fireblight": 1,
+      "Waterblight": 1,
+      "Thunderblight": 0,
+      "Iceblight": 2
+    },
+    "Narwa the Allmother": {
+      "habitats": [
+        "Coral Palace"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "90",
+          "Impact": "92",
+          "Shot": "43"
+        },
+        "Neck": {
+          "Cutting": "40",
+          "Impact": "42",
+          "Shot": "3"
+        },
+        "Torso": {
+          "Cutting": "40",
+          "Impact": "42",
+          "Shot": "5"
+        },
+        "Chest (Charged)": {
+          "Cutting": "70",
+          "Impact": "65",
+          "Shot": "15"
+        },
+        "Wingarm": {
+          "Cutting": "35",
+          "Impact": "30",
+          "Shot": "5"
+        },
+        "Wingarm (Charged)": {
+          "Cutting": "92",
+          "Impact": "88",
+          "Shot": "47"
+        },
+        "Abdomen (Thundersac)": {
+          "Cutting": "100",
+          "Impact": "100",
+          "Shot": "55"
+        },
+        "Back (Charged)": {
+          "Cutting": "60",
+          "Impact": "50",
+          "Shot": "15"
+        },
+        "Leg Fin": {
+          "Cutting": "30",
+          "Impact": "35",
+          "Shot": "1"
+        },
+        "Tail": {
+          "Cutting": "40",
+          "Impact": "35",
+          "Shot": "5"
+        },
+        "Tail Tip (Charged)": {
+          "Cutting": "95",
+          "Impact": "90",
+          "Shot": "45"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "15"
+        },
+        "Neck": {
+          "Fire": "0",
+          "Water": "0",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "0"
+        },
+        "Torso": {
+          "Fire": "0",
+          "Water": "0",
+          "Thunder": "0",
+          "Ice": "0",
+          "Dragon": "5"
+        },
+        "Chest (Charged)": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "15"
+        },
+        "Wingarm": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "10"
+        },
+        "Wingarm (Charged)": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "20"
+        },
+        "Abdomen (Thundersac)": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "20",
+          "Dragon": "25"
+        },
+        "Back (Charged)": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "15"
+        },
+        "Leg Fin": {
+          "Fire": "0",
+          "Water": "0",
+          "Thunder": "0",
+          "Ice": "0",
+          "Dragon": "5"
+        },
+        "Tail": {
+          "Fire": "0",
+          "Water": "0",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "10"
+        },
+        "Tail Tip (Charged)": {
+          "Fire": "0",
+          "Water": "0",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "15"
+        }
+      },
+      "ailments": {
+        "Poison": 0,
+        "Stun": 0,
+        "Paralysis": 0,
+        "Sleep": 0,
+        "Blast": 2,
+        "Exhaust": 0,
+        "Fireblight": 1,
+        "Waterblight": 1,
+        "Thunderblight": 0,
+        "Iceblight": 2
+      }
+    },
+    "Tigrex": {
+      "habitats": [
+        "Frost Islands",
+        "Sandy Plains",
+        "Lava Caverns",
+        "Red Stronghold"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "65",
+          "Impact": "70",
+          "Shot": "55"
+        },
+        "Foreleg": {
+          "Cutting": "50",
+          "Impact": "45",
+          "Shot": "35"
+        },
+        "Abdomen": {
+          "Cutting": "30",
+          "Impact": "30",
+          "Shot": "20"
+        },
+        "Back": {
+          "Cutting": "25",
+          "Impact": "25",
+          "Shot": "20"
+        },
+        "Hind Leg": {
+          "Cutting": "30",
+          "Impact": "30",
+          "Shot": "25"
+        },
+        "Tail Base": {
+          "Cutting": "40",
+          "Impact": "35",
+          "Shot": "30"
+        },
+        "Tail": {
+          "Cutting": "45",
+          "Impact": "35",
+          "Shot": "30"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "0",
+          "Water": "10",
+          "Thunder": "25",
+          "Ice": "5",
+          "Dragon": "15"
+        },
+        "Foreleg": {
+          "Fire": "0",
+          "Water": "15",
+          "Thunder": "20",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Abdomen": {
+          "Fire": "10",
+          "Water": "10",
+          "Thunder": "15",
+          "Ice": "5",
+          "Dragon": "15"
+        },
+        "Back": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "15",
+          "Ice": "5",
+          "Dragon": "15"
+        },
+        "Hind Leg": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "15",
+          "Ice": "0",
+          "Dragon": "10"
+        },
+        "Tail Base": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "10",
+          "Ice": "0",
+          "Dragon": "5"
+        },
+        "Tail": {
+          "Fire": "0",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "0",
+          "Dragon": "15"
+        }
+      },
+      "ailments": {
+        "Poison": 1,
+        "Stun": 1,
+        "Paralysis": 1,
+        "Sleep": 1,
+        "Blast": 2,
+        "Exhaust": 1,
+        "Fireblight": 1,
+        "Waterblight": 1,
+        "Thunderblight": 2,
+        "Iceblight": 1
+      }
+    },
+    "Tobi-Kadachi": {
+      "habitats": [
+        "Flooded Forest (Rise)",
+        "Shrine Ruins"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "48",
+          "Impact": "48",
+          "Shot": "45"
+        },
+        "Neck": {
+          "Cutting": "48",
+          "Impact": "48",
+          "Shot": "45"
+        },
+        "Torso": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "35"
+        },
+        "Foreleg": {
+          "Cutting": "35",
+          "Impact": "35",
+          "Shot": "15"
+        },
+        "Back": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "48"
+        },
+        "Hind Leg": {
+          "Cutting": "30",
+          "Impact": "30",
+          "Shot": "10"
+        },
+        "Tail": {
+          "Cutting": "65",
+          "Impact": "65",
+          "Shot": "55"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "20",
+          "Water": "30",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Neck": {
+          "Fire": "10",
+          "Water": "20",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Torso": {
+          "Fire": "5",
+          "Water": "15",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "0"
+        },
+        "Foreleg": {
+          "Fire": "5",
+          "Water": "15",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "0"
+        },
+        "Back": {
+          "Fire": "5",
+          "Water": "15",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "0"
+        },
+        "Hind Leg": {
+          "Fire": "20",
+          "Water": "30",
+          "Thunder": "0",
+          "Ice": "20",
+          "Dragon": "15"
+        },
+        "Tail": {
+          "Fire": "15",
+          "Water": "30",
+          "Thunder": "0",
+          "Ice": "15",
+          "Dragon": "10"
+        }
+      },
+      "ailments": {
+        "Poison": 3,
+        "Stun": 1,
+        "Paralysis": 1,
+        "Sleep": 1,
+        "Blast": 2,
+        "Exhaust": 1,
+        "Fireblight": 1,
+        "Waterblight": 2,
+        "Thunderblight": 1,
+        "Iceblight": 1
+      }
+    },
+    "Crimson Glow Valstrax": {
+      "habitats": [
+        "Frost Islands",
+        "Sandy Plains",
+        "Flooded Forest (Rise)",
+        "Lava Caverns",
+        "Shrine Ruins"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "55",
+          "Impact": "60",
+          "Shot": "35"
+        },
+        "Neck": {
+          "Cutting": "40",
+          "Impact": "30",
+          "Shot": "15"
+        },
+        "Torso": {
+          "Cutting": "30",
+          "Impact": "25",
+          "Shot": "10"
+        },
+        "Chest": {
+          "Cutting": "30",
+          "Impact": "25",
+          "Shot": "10"
+        },
+        "Foreleg": {
+          "Cutting": "25",
+          "Impact": "24",
+          "Shot": "25"
+        },
+        "Wing": {
+          "Cutting": "22",
+          "Impact": "45",
+          "Shot": "25"
+        },
+        "Hind Leg": {
+          "Cutting": "25",
+          "Impact": "24",
+          "Shot": "15"
+        },
+        "Wingarm": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "45"
+        },
+        "Tail": {
+          "Cutting": "45",
+          "Impact": "24",
+          "Shot": "20"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "25",
+          "Water": "25",
+          "Thunder": "25",
+          "Ice": "25",
+          "Dragon": "0"
+        },
+        "Neck": {
+          "Fire": "25",
+          "Water": "25",
+          "Thunder": "25",
+          "Ice": "25",
+          "Dragon": "0"
+        },
+        "Torso": {
+          "Fire": "20",
+          "Water": "20",
+          "Thunder": "20",
+          "Ice": "20",
+          "Dragon": "0"
+        },
+        "Chest": {
+          "Fire": "20",
+          "Water": "20",
+          "Thunder": "20",
+          "Ice": "20",
+          "Dragon": "0"
+        },
+        "Foreleg": {
+          "Fire": "25",
+          "Water": "25",
+          "Thunder": "25",
+          "Ice": "25",
+          "Dragon": "0"
+        },
+        "Wing": {
+          "Fire": "25",
+          "Water": "25",
+          "Thunder": "25",
+          "Ice": "25",
+          "Dragon": "0"
+        },
+        "Hind Leg": {
+          "Fire": "15",
+          "Water": "15",
+          "Thunder": "15",
+          "Ice": "15",
+          "Dragon": "0"
+        },
+        "Wingarm": {
+          "Fire": "15",
+          "Water": "15",
+          "Thunder": "15",
+          "Ice": "15",
+          "Dragon": "0"
+        },
+        "Tail": {
+          "Fire": "20",
+          "Water": "20",
+          "Thunder": "20",
+          "Ice": "20",
+          "Dragon": "0"
+        }
+      },
+      "ailments": {
+        "Poison": 0,
+        "Stun": 0,
+        "Paralysis": 0,
+        "Sleep": 0,
+        "Blast": 2,
+        "Exhaust": 0,
+        "Fireblight": 1,
+        "Waterblight": 1,
+        "Thunderblight": 1,
+        "Iceblight": 1
+      }
+    },
+    "Volvidon": {
+      "habitats": [
+        "Sandy Plains",
+        "Lava Caverns"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "55",
+          "Impact": "50",
+          "Shot": "45"
+        },
+        "Upper Half": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "35"
+        },
+        "Foreleg": {
+          "Cutting": "38",
+          "Impact": "30",
+          "Shot": "30"
+        },
+        "Abdomen/Hind Leg": {
+          "Cutting": "36",
+          "Impact": "36",
+          "Shot": "20"
+        },
+        "Back": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "40"
+        },
+        "Rear": {
+          "Cutting": "30",
+          "Impact": "30",
+          "Shot": "25"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "0",
+          "Water": "30",
+          "Thunder": "15",
+          "Ice": "20",
+          "Dragon": "0"
+        },
+        "Upper Half": {
+          "Fire": "0",
+          "Water": "20",
+          "Thunder": "10",
+          "Ice": "15",
+          "Dragon": "0"
+        },
+        "Foreleg": {
+          "Fire": "0",
+          "Water": "10",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "0"
+        },
+        "Abdomen/Hind Leg": {
+          "Fire": "0",
+          "Water": "10",
+          "Thunder": "5",
+          "Ice": "10",
+          "Dragon": "0"
+        },
+        "Back": {
+          "Fire": "0",
+          "Water": "20",
+          "Thunder": "10",
+          "Ice": "15",
+          "Dragon": "0"
+        },
+        "Rear": {
+          "Fire": "0",
+          "Water": "15",
+          "Thunder": "10",
+          "Ice": "10",
+          "Dragon": "0"
+        }
+      },
+      "ailments": {
+        "Poison": 1,
+        "Stun": 2,
+        "Paralysis": 1,
+        "Sleep": 1,
+        "Blast": 2,
+        "Exhaust": 1,
+        "Fireblight": 1,
+        "Waterblight": 2,
+        "Thunderblight": 1,
+        "Iceblight": 1
+      }
+    },
+    "Wind Serpent Ibushi": {
+      "habitats": [
+        "Red Stronghold",
+        "Coral Palace"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "65",
+          "Impact": "70",
+          "Shot": "45"
+        },
+        "Neck": {
+          "Cutting": "35",
+          "Impact": "30",
+          "Shot": "25"
+        },
+        "Torso": {
+          "Cutting": "30",
+          "Impact": "30",
+          "Shot": "25"
+        },
+        "Chest (Windsac)": {
+          "Cutting": "80",
+          "Impact": "80",
+          "Shot": "75"
+        },
+        "Wingarm": {
+          "Cutting": "35",
+          "Impact": "30",
+          "Shot": "35"
+        },
+        "Wingarm (Wingsac)": {
+          "Cutting": "65",
+          "Impact": "60",
+          "Shot": "40"
+        },
+        "Back (Windsac)": {
+          "Cutting": "60",
+          "Impact": "55",
+          "Shot": "45"
+        },
+        "Leg Fin": {
+          "Cutting": "25",
+          "Impact": "25",
+          "Shot": "15"
+        },
+        "Tail": {
+          "Cutting": "30",
+          "Impact": "25",
+          "Shot": "10"
+        },
+        "Tail Tip (Windsac)": {
+          "Cutting": "50",
+          "Impact": "45",
+          "Shot": "40"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "20",
+          "Water": "10",
+          "Thunder": "5",
+          "Ice": "10",
+          "Dragon": "25"
+        },
+        "Neck": {
+          "Fire": "15",
+          "Water": "5",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "20"
+        },
+        "Torso": {
+          "Fire": "10",
+          "Water": "5",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "10"
+        },
+        "Chest (Windsac)": {
+          "Fire": "15",
+          "Water": "15",
+          "Thunder": "5",
+          "Ice": "15",
+          "Dragon": "25"
+        },
+        "Wingarm": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "5"
+        },
+        "Wingarm (Wingsac)": {
+          "Fire": "25",
+          "Water": "10",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "25"
+        },
+        "Back (Windsac)": {
+          "Fire": "20",
+          "Water": "10",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "25"
+        },
+        "Leg Fin": {
+          "Fire": "10",
+          "Water": "5",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "10"
+        },
+        "Tail": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "5",
+          "Ice": "5",
+          "Dragon": "10"
+        },
+        "Tail Tip (Windsac)": {
+          "Fire": "25",
+          "Water": "15",
+          "Thunder": "5",
+          "Ice": "15",
+          "Dragon": "35"
+        }
+      },
+      "ailments": {
+        "Poison": 1,
+        "Stun": 1,
+        "Paralysis": 1,
+        "Sleep": 1,
+        "Blast": 1,
+        "Exhaust": 0,
+        "Fireblight": 2,
+        "Waterblight": 1,
+        "Thunderblight": 1,
+        "Iceblight": 1
+      }
+    },
+    "Zinogre": {
+      "habitats": [
+        "Flooded Forest (Rise)",
+        "Red Stronghold",
+        "Shrine Ruins"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "65",
+          "Impact": "65",
+          "Shot": "70"
+        },
+        "Torso": {
+          "Cutting": "25",
+          "Impact": "25",
+          "Shot": "30"
+        },
+        "Hip": {
+          "Cutting": "44",
+          "Impact": "44",
+          "Shot": "30"
+        },
+        "Foreleg": {
+          "Cutting": "25",
+          "Impact": "30",
+          "Shot": "30"
+        },
+        "Back": {
+          "Cutting": "45",
+          "Impact": "40",
+          "Shot": "35"
+        },
+        "Hind Leg": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "35"
+        },
+        "Tail": {
+          "Cutting": "30",
+          "Impact": "25",
+          "Shot": "25"
+        },
+        "Tail Tip": {
+          "Cutting": "21",
+          "Impact": "19",
+          "Shot": "10"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "10",
+          "Water": "10",
+          "Thunder": "0",
+          "Ice": "15",
+          "Dragon": "5"
+        },
+        "Torso": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "5"
+        },
+        "Hip": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Foreleg": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Back": {
+          "Fire": "10",
+          "Water": "20",
+          "Thunder": "0",
+          "Ice": "25",
+          "Dragon": "5"
+        },
+        "Hind Leg": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Tail": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "5"
+        },
+        "Tail Tip": {
+          "Fire": "10",
+          "Water": "15",
+          "Thunder": "0",
+          "Ice": "20",
+          "Dragon": "5"
+        }
+      },
+      "ailments": {
+        "Poison": 1,
+        "Stun": 1,
+        "Paralysis": 0,
+        "Sleep": 1,
+        "Blast": 2,
+        "Exhaust": 1,
+        "Fireblight": 1,
+        "Waterblight": 1,
+        "Thunderblight": 1,
+        "Iceblight": 2
+      }
+    },
+    "Apex Zinogre": {
+      "habitats": [
+        "Flooded Forest (Rise)",
+        "Red Stronghold",
+        "Infernal Springs",
+        "Shrine Ruins"
+      ],
+      "hitzones": {
+        "Head": {
+          "Cutting": "65",
+          "Impact": "65",
+          "Shot": "70"
+        },
+        "Torso": {
+          "Cutting": "25",
+          "Impact": "25",
+          "Shot": "30"
+        },
+        "Hip": {
+          "Cutting": "44",
+          "Impact": "44",
+          "Shot": "30"
+        },
+        "Foreleg": {
+          "Cutting": "25",
+          "Impact": "30",
+          "Shot": "30"
+        },
+        "Back": {
+          "Cutting": "45",
+          "Impact": "40",
+          "Shot": "35"
+        },
+        "Hind Leg": {
+          "Cutting": "45",
+          "Impact": "45",
+          "Shot": "35"
+        },
+        "Tail": {
+          "Cutting": "30",
+          "Impact": "25",
+          "Shot": "25"
+        },
+        "Tail Tip": {
+          "Cutting": "21",
+          "Impact": "19",
+          "Shot": "10"
+        }
+      },
+      "elements": {
+        "Head": {
+          "Fire": "10",
+          "Water": "10",
+          "Thunder": "0",
+          "Ice": "15",
+          "Dragon": "5"
+        },
+        "Torso": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "5"
+        },
+        "Hip": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Foreleg": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Back": {
+          "Fire": "10",
+          "Water": "20",
+          "Thunder": "0",
+          "Ice": "25",
+          "Dragon": "5"
+        },
+        "Hind Leg": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "10",
+          "Dragon": "5"
+        },
+        "Tail": {
+          "Fire": "5",
+          "Water": "5",
+          "Thunder": "0",
+          "Ice": "5",
+          "Dragon": "5"
+        },
+        "Tail Tip": {
+          "Fire": "10",
+          "Water": "15",
+          "Thunder": "0",
+          "Ice": "20",
+          "Dragon": "5"
+        }
+      },
+      "ailments": {
+        "Poison": 1,
+        "Stun": 1,
+        "Paralysis": 0,
+        "Sleep": 1,
+        "Blast": 2,
+        "Exhaust": 1,
+        "Fireblight": 1,
+        "Waterblight": 1,
+        "Thunderblight": 1,
+        "Iceblight": 2
+      }
+    }
   }
 }
