@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4f639459-a27e-4f59-9a2a-46b05a04d69c": {
+      "ProjectGuid": "4f639459-a27e-4f59-9a2a-46b05a04d69c",
+      "DisplayName": "MonstersApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
