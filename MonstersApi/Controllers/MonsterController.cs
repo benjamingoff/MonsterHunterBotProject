@@ -16,9 +16,9 @@ namespace MonstersApi.Controllers
             _monsterService = monsterService;
         }
 
-        // GET: MonsterController/Details/5
+        // GET: /api/MonsterName
         [HttpGet]
-        [Route("/{name}")]
+        [Route("/api/{name}")]
         public async Task<IActionResult> GetMonsterByName(string name)
         {
             var monster = await _monsterService.GetMonsterByNameAsync(name);
@@ -27,6 +27,19 @@ namespace MonstersApi.Controllers
                 return NotFound();
             }
             return Ok(monster);
+        }
+
+        // NOTE: This returns all of the monster objects (literally an entire database dump) --Very expensive to use
+        [HttpGet]
+        [Route("/api/GetAll")]
+        public async Task<IActionResult> GetAllMonsterNames()
+        {
+            var monsters = await _monsterService.GetAllMonstersAsync();
+            if (monsters == null)
+            {
+                return NotFound();
+            }
+            return Ok(monsters);
         }
     }
 }

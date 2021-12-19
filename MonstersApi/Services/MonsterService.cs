@@ -2,6 +2,7 @@
 using MongoDB.Driver;
 using MonstersApi.Configuration;
 using MonstersApi.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MonstersApi.Services
@@ -22,6 +23,11 @@ namespace MonstersApi.Services
         public async Task<Monster> GetMonsterByNameAsync(string Name)
         {
             return await _monsters.Find<Monster>(c => c.name == Name).FirstOrDefaultAsync();
+        }
+
+        public async Task<List<Monster>> GetAllMonstersAsync()
+        {
+            return await _monsters.Find(c => true).ToListAsync();
         }
     }
 }
