@@ -18,7 +18,7 @@ namespace MonstersApi.Controllers
 
         // GET: MonsterController/Details/5
         [HttpGet]
-        [Route("api/Monster/{name}")]
+        [Route("/{name}")]
         public async Task<IActionResult> GetMonsterByName(string name)
         {
             var monster = await _monsterService.GetMonsterByNameAsync(name);
