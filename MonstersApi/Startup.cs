@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MonstersApi.Configuration;
+using MonstersApi.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,8 @@ namespace MonstersApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MonstersApi", Version = "v1" });
             });
+            services.Configure<MonsterConfiguration>(Configuration.GetSection("MonsterConnectionSettings"));
+            services.AddScoped<IMonsterService, MonsterService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

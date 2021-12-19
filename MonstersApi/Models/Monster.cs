@@ -12,12 +12,19 @@ namespace MonstersApi.Models
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
         public string _id { get; set; }
 
-        public string Name { get; set; }
+        public string name { get; set; }
 
-        public List<string> Habitats { get; set; }
+        public List<string> habitats { get; set; }
 
-        public List<Hitzone> Hitzones { get; set; }
+        public Dictionary<string, HitzoneData> hitzones { get; set; }
 
+        public Dictionary<string, ElementData> elements { get; set; }
 
+        public AilmentData ailments { get; set; }
+
+        public Monster()
+        {
+
+        }
     }
 }

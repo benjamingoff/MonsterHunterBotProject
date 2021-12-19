@@ -3959,7 +3959,8 @@
       "Waterblight": 1,
       "Thunderblight": 0,
       "Iceblight": 2
-    },
+    }
+  },
     "Narwa_the_Allmother": {
       "name": "Narwa the Allmother",
       "habitats": [
@@ -4944,4 +4945,3 @@
       }
     }
   }
-}

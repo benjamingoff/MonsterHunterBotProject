@@ -2,7 +2,7 @@
 {
     public class AilmentData
     {
-        public int Poisin { get; set; }
+        public int Poison { get; set; }
         public int Stun { get; set; }
         public int Paralysis { get; set; }
         public int Sleep { get; set; } 
@@ -13,11 +13,11 @@
         public int Thunderblight { get; set; }
         public int Iceblight { get; set; }
 
-        public AilmentData(int Poisin, int Stun, int Paralysis, int Sleep, int Blast,
+        public AilmentData(int Poison, int Stun, int Paralysis, int Sleep, int Blast,
                             int Exhaust, int Fireblight, int Waterblight,
                             int Thunderblight, int Iceblight)
         {
-            this.Poisin = Poisin;
+            this.Poison = Poison;
             this.Stun = Stun;
             this.Paralysis = Paralysis;
             this.Sleep = Sleep;
